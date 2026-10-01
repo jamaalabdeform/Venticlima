@@ -1,0 +1,1 @@
+const esbuild=require('esbuild');esbuild.buildSync({entryPoints:['src/main.tsx'],bundle:true,external:['/assets/*'],minify:true,outdir:'dist/assets',jsx:'automatic',loader:{'.ttf':'file'},define:{'process.env.NODE_ENV':'"production"'}});
