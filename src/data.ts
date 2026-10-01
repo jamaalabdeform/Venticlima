@@ -9,7 +9,7 @@ export const services = [
 {id:'depannage', title:'Dépannage & SAV', short:'Comprendre la panne. Rétablir le fonctionnement.', text:'Un diagnostic des installations existantes et une intervention adaptée à l’origine du dysfonctionnement.', applications:'Professionnels, exploitants et responsables techniques.', systems:'Diagnostic, réparation et assistance technique, selon les équipements.', image:'ventilation.jpg'},
 ];
 export const sectors = [
-{title:'Hôtellerie',text:'Confort des chambres, qualité de l’air et contraintes d’exploitation.',image:'hotel.jpg'},
+{title:'Hôtellerie',text:'Confort des chambres, qualité de l’air et contraintes d’exploitation.',image:'hotel-marrakech.jpg'},
 {title:'Restauration',text:'Extraction, ventilation et conservation des produits.',image:'ventilation.jpg'},
 {title:'Tertiaire',text:'Des espaces de travail et de vente au confort maîtrisé.',image:'office.jpg'},
 {title:'Industrie',text:'Des installations pensées pour les contraintes du site.',image:'roof.jpg'},
@@ -24,7 +24,7 @@ export const steps = [
 ['Maintenance','Entretenir les équipements et suivre leur fonctionnement.']
 ];
 export const projects = [
-{id:'hotel',title:'Confort climatique hôtelier',sector:'Hôtellerie',category:'Climatisation',image:'hotel.jpg',need:'Maintenir le confort dans des espaces aux usages et occupations variables.',solution:'Étude des besoins, choix des équipements et organisation de leur mise en œuvre.'},
+{id:'hotel',title:'Confort climatique hôtelier',sector:'Hôtellerie',category:'Climatisation',image:'hotel-marrakech.jpg',need:'Maintenir le confort dans des espaces aux usages et occupations variables.',solution:'Étude des besoins, choix des équipements et organisation de leur mise en œuvre.'},
 {id:'tertiaire',title:'Renouvellement d’air tertiaire',sector:'Tertiaire',category:'Ventilation',image:'office.jpg',need:'Accompagner les usages quotidiens d’un bâtiment professionnel.',solution:'Analyse des flux, conception de la ventilation et contrôle à la mise en service.'},
 {id:'industrie',title:'Installation technique industrielle',sector:'Industrie',category:'Froid',image:'roof.jpg',need:'Adapter les installations aux contraintes de production et d’exploitation.',solution:'Définition des conditions de fonctionnement et suivi technique de l’installation.'}
 ];
